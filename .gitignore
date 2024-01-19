@@ -42,6 +42,7 @@ testem.log
 /src/assets/DB
 /src/app/services
 /src/app/pages/geo
+/src/assets/DB
 
 # System files
 .DS_Store
