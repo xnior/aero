@@ -1,0 +1,21 @@
+
+    <h2 mat-dialog-title>{{data.CodigoOACI}}
+    </h2>
+
+<div mat-dialog-content>
+<p><strong>Nome:</strong> {{data.Nome}}</p>
+<p><strong>Município:</strong> {{data.Municipio}}</p>
+<p><strong>UF:</strong> {{data.UF}}</p>
+<p><strong>Latitude:</strong> {{data.Latitude}}</p>
+<p><strong>Longitude:</strong> {{data.Longitude}}</p>
+<p><strong>Altitude:</strong> {{data.Altitude * 3.280 }} (ft)pés</p>
+<p><strong>Operação Diurna:</strong> {{data.OperacaoDiurna}}</p>
+<p><strong>Operação Noturna:</strong> {{data.OperacaoNoturna}}</p>
+<p><strong>Designação:</strong> {{data.Designacao1}}</p>
+<p><strong>Comprimento:</strong> {{data.Comprimento1}} metros</p>
+<p><strong>Largura:</strong> {{data.Largura1}} metros</p>
+<p><strong>Resistência:</strong> {{data.Resistencia1}}</p>
+<p><strong>Superfície:</strong> {{data.Superficie1}}</p>
+<p><strong>Validade do Registro:</strong> {{data.ValidadedoRegistro}}</p>
+</div>
+<button mat-raised-button color="primary" (click)="close()">Fechar</button>

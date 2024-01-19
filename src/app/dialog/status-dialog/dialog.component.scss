@@ -1,0 +1,98 @@
+:host{
+*{overflow: hidden;}    
+.g {
+    color: white;
+    font-weight: bold;
+    background: green;
+    text-align: center;
+    
+}
+
+.y {
+    color: black;
+    font-weight: bold;
+    background: yellow;
+    text-align: center;
+    -webkit-animation: y-animation 2s infinite;
+    animation: y-animation 2s infinite;
+}
+.r {
+    color: black;
+    font-weight: bold;
+    background: blueviolet;
+    text-align: center;
+    -webkit-animation: r-animation .5s infinite;
+    animation: r-animation .5s infinite;
+}
+@keyframes y-animation {
+    0% {
+        background: yellow;
+    }
+    50% {
+        background: black;
+        color: white;
+    }
+    100% {
+        background: yellow;
+    }
+}
+@-webkit-keyframes y-animation {
+    0% {
+        background: yellow;
+    }
+    50% {
+        background: black;
+        color: white;
+    }
+    100% {
+        background: yellow;
+    }
+}
+@keyframes r-animation {
+    0% {
+        background: blueviolet;
+    }
+    50% {
+        background: black;
+        color: white;
+    }
+    100% {
+        background: blueviolet;
+    }
+}
+@-webkit-keyframes r-animation {
+    0% {
+        background: blueviolet;
+    }
+    50% {
+        background: black;
+        color: white;
+    }
+    100% {
+        background: blueviolet;
+    }
+}
+    p{
+        line-height: 1;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    div{
+      position: absolute;
+      top:5px;
+      right: 5px;
+
+      
+      
+    }
+    mat-dialog-content{
+        max-width: 500px;
+    }
+    .mdc-dialog__title{
+        padding: 0 0 0 10px;
+        margin:0;
+    }
+}
