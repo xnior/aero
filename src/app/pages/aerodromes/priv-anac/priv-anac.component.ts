@@ -32,7 +32,7 @@ export class PrivAnacComponent implements AfterViewInit {
   displayedColumns: string[] = ["cod", "name", "mun"];
   dataSource: MatTableDataSource<AErodromesPrivAnac>;
 
-  @ViewChild(MatPaginator) paginator: MatPaginator;
+  @ViewChild(MatPaginator) paginator!: MatPaginator;
 
   constructor() {
     this.dataSource = new MatTableDataSource(AERODROMES_ANAC_PRIVATE);
