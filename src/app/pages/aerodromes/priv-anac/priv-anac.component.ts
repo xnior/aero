@@ -57,16 +57,16 @@ this.loadData();
     this.dataSource.paginator = this.paginator;
     // console.log(this.dataSource.data);
   }
-  debug(data: any) {
-    return console.log(data);
-  }
+  // debug(data: any) {
+  //   return console.log(data);
+  // }
   openDialog(data: any) {
     this.#dialog.open(PrivAnacDialogComponent, {
       data,
       height: "auto",
       width: "500px",
     });
-    console.log(data);
+    // console.log(data);
   }
 
   applyFilter(event: Event) {
