@@ -37,6 +37,12 @@ yarn-error.log
 testem.log
 /typings
 
+# Safety Files
+/src/app/enviroments
+/src/assets/DB
+/src/app/services
+/src/app/pages/geo
+
 # System files
 .DS_Store
 Thumbs.db
