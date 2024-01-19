@@ -37,7 +37,7 @@ export class PrivAnacComponent implements OnInit,AfterViewInit {
   
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   
-  aerodromesService = inject(AerodromesService);
+  #aerodromesService = inject(AerodromesService);
   
 
   ngOnInit(): void {
@@ -46,7 +46,7 @@ this.loadData();
   }
   private loadData() {
     // Assuming your service has a method getAerodromesData() that returns a Promise<AErodromesPrivAnac[]>
-    this.aerodromesService.getAerodromesData().then((data) => {
+    this.#aerodromesService.getAerodromesData().then((data) => {
       this.dataSource = new MatTableDataSource(data);
       this.dataSource.paginator = this.paginator;
     });
