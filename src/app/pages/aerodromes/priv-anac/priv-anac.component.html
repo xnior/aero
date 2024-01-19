@@ -1,4 +1,5 @@
 <section>
+  @if (dataSource) {
   <h2>Consulta de Aeródromos Data Base ANAC</h2>
   <!-- <p>
     Existem um total de {{ dataSource.filteredData.length }} Aeródromos, cadastrados no sistema
@@ -6,6 +7,7 @@
   </p> -->
   
   
+}
   <mat-form-field value="primary" appearance="outline">
     <mat-label>Search</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Brasília" #input>
