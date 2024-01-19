@@ -1,4 +1,5 @@
 <section>
+  @if(dataSource){
   <h2>Consulta de Aeródromos Data Base ANAC</h2>
   <p>
     Existem um total de {{ dataSource.filteredData.length }} Aeródromos, cadastrados no sistema
@@ -52,5 +53,6 @@
       
     </div>
     
-    
+  }@else {<h2>Carregando dados...</h2>}  
   </section>
+  
