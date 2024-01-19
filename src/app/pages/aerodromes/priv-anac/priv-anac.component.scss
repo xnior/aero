@@ -1,0 +1,32 @@
+:host{
+    section{
+        margin-top: 25px;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+      }
+      
+      
+      .mat-mdc-form-field {
+        font-size: 14px;
+        width: auto;
+      }
+      
+      td, th {
+        width: 25%;
+      }
+      button{
+        border: 1px solid #ccc;
+        
+      }
+      .mat-column-select {
+        overflow: initial;
+      }
+      .table-container {
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+      }
+    }
+   

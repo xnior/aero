@@ -1,0 +1,29 @@
+<app-consume-services />
+<p>{{aerodromesCount}} @if (dataSource.length > 1  ) { Aeródromos consultados }@else{Aeródromo consultado}</p>
+<!-- <p>{{getData}}</p> -->
+<!-- @for (item of getMetar()?.data.data; track item) {
+  <p>{{item.id_localidade}} - {{item.mens}}</p>
+  
+}-->
+<hr>
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="localidade">
+      <th mat-header-cell *matHeaderCellDef> No. </th>
+      <td mat-cell *matCellDef="let element"> {{element.id_localidade}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="mens">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.mens}} </td>
+    </ng-container>
+      
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>

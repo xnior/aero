@@ -1,0 +1,43 @@
+<app-consume-services />
+<section><p>
+  {{ aerodromesCount }} @if(aerodromesCount==1){Aeródromo
+  consultado}@else{Aeródromos consultados}
+</p>
+<div>
+  <p>Filtrar:</p>
+  <select [(ngModel)]="searchStatus">
+    <option></option>
+    <option value="g">VFR</option>
+    <option value="y">IFR</option>
+    <option value="r">LIFR</option>
+  </select>
+</div>
+<hr />
+@for (item of setStatusTask() | tableFilter: searchStatus ; track item) {
+<table class="mat-elevation-z8">
+  <button (click)="openDialog(item)">
+    <tr>
+      <th>{{ item[0] }}</th>
+      <th colspan="2">Aeroporto: {{ item[1] }}</th>
+      <th></th>
+      <th>
+        @if (item[4]=== 'g') {<button class="g">VFR</button>}@else if (item[4]
+        === 'y') {<button class="y">IFR</button>}@else if (item[4]=== 'r') {<button
+          class="r"
+        >
+          LIFR</button
+        >}@else { <button class="out">OUT</button>}
+      </th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>{{ item[5] }}</td>
+      <td></td>
+    </tr>
+  </button>
+</table>
+<hr />
+
+}@empty {<h2>Nenhum Abaixo dos Mínimos</h2>}
+</section>
