@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "predeploy": "ng build --base-href=https://xnior.github.io/aero/",
-    "deploy": "gh-pages -d dist/metar/browser/"
+    "deploy": "gh-pages -d dist/aero/browser/"
   },
   "private": true,
   "dependencies": {
