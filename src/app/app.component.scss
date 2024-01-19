@@ -1,0 +1,76 @@
+@import '../assets/scss/';
+
+:host {
+
+  .menu-button-row button,
+  // .menu-button-row a {
+  //   margin-right: 8px;
+  // }
+
+  .menu-disabled {
+    display: inline-block;
+  }
+
+  .menu {
+    // margin: 0 15 0 0;
+    
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    // height: auto;
+    // position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+
+    li {
+      flex: 20%;
+
+      button {
+        border: 0;
+        padding: 10px;
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+.mat-mdc-menu-item {
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 90%;
+
+}
+
+.mat-mdc-menu-panel {
+  overflow: hidden;
+}
