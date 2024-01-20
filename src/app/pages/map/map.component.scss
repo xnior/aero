@@ -1,0 +1,26 @@
+section{
+    display: grid;
+    // width: 100%;
+    
+    
+    
+}
+:host {
+    .map-container {
+        // display: grid;
+        // flex-direction: column;
+        height: 350px;
+        
+
+    }
+
+    .map-frame {
+        border: 2px solid black;
+        height: 100%;
+    }
+
+    #map {
+        height: 400px;
+        width: 100%;
+    }
+}
