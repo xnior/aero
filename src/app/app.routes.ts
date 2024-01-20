@@ -1,7 +1,7 @@
 import { Routes } from "@angular/router";
 
 export const routes: Routes = [
-  { path: "", redirectTo: "metar", pathMatch: "full" },
+  { path: "", redirectTo: "status", pathMatch: "full" },
   {
     path: "metar",
     loadComponent() {
