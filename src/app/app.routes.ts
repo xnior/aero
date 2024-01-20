@@ -1,7 +1,4 @@
 import { Routes } from "@angular/router";
-import { StatusComponent } from "./pages/status/status.component";
-import { DisplayComponent } from "./pages/metar/metar.component";
-import { PrivAnacComponent } from "./pages/aerodromes/priv-anac/priv-anac.component";
 
 export const routes: Routes = [
   { path: "", redirectTo: "metar", pathMatch: "full" },
@@ -39,5 +36,9 @@ export const routes: Routes = [
       );
     },
     title: "Calculo Rotas - Sistema Aeronáutico",
-  }
+  },{
+  path: "**",
+  redirectTo: "metar",
+  pathMatch: "full",
+},
 ];
