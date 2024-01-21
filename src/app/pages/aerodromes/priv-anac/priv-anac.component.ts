@@ -78,4 +78,12 @@ this.loadData();
       this.dataSource.paginator.firstPage();
     }
   }
+
+  scrollToElement() {
+    const element = document.getElementById('top');
+
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }
