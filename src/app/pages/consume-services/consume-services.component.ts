@@ -21,11 +21,5 @@ export class ConsumeServicesComponent {
       // console.log(this.input_localide);
     }
   }
-  private locationScroll() {
-    window.scroll({left: 0, top: 100, behavior: 'smooth'});
-  }
-  public focusInput() {
-    this.locationScroll();
-  }
   // console.log(this.dataInput);
 }

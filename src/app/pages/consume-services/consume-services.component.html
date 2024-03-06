@@ -3,7 +3,7 @@
     <h3>Consulta de Aeródromo(s)</h3>
     <!-- {{getData() | json}} -->
     
-    <input type="text" [(ngModel)]="input_localide" #dataInputLocalidade oninput="this.value = this.value.toUpperCase(),this.value = this.value.trim()" (focus)="focusInput()" placeholder="SBSP, SBGL" required>
+    <input type="text" [(ngModel)]="input_localide" #dataInputLocalidade oninput="this.value = this.value.toUpperCase(),this.value = this.value.trim()" placeholder="SBSP, SBGL" required>
     <button (click)="requestData()" [disabled]="!dataInputLocalidade.value">Requisitar</button>
     
     <!-- <button (click)="setTask()">Buscar</button> -->

@@ -79,11 +79,5 @@ this.loadData();
     }
   }
 
-  scrollToElement() {
-    const element = document.getElementById('top');
 
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
 }
