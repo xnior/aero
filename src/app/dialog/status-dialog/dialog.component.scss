@@ -24,6 +24,13 @@
     -webkit-animation: r-animation .5s infinite;
     animation: r-animation .5s infinite;
 }
+.out {
+    color: black;
+    font-weight: bold;
+    background: rgb(122, 122, 122);
+    text-align: center;
+    
+}
 @keyframes y-animation {
     0% {
         background: yellow;

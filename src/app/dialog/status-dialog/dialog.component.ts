@@ -24,6 +24,7 @@ public closeDialog(){
   ngOnInit(): void {
     this.#apiService.httpApiAerodromes$(this._data[0]).subscribe((res) => {
       this.getData.set(res.data), this.itemData.set(this._data[4]);
+      console.log(this.itemData());
     });
 
     this.getData.set(this._data);

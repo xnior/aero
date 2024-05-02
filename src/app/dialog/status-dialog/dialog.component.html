@@ -1,27 +1,35 @@
-@defer(on timer(500ms) ){ 
+@defer(on timer(500ms) ){
 
-    <h2 mat-dialog-title>{{getData().localidade}} - {{getData().nome}}</h2>
-    <div> @if (itemData() === 'g') {<button class="g">VFR</button>}@else if (itemData() ===
-        'y') {<button class="y">IFR</button>}@else if (itemData()) {<button class="r">LIFR</button>}</div>
-    <mat-dialog-content>
-        <section>
-            <p>ICAO: {{getData().localidade}}</p>
-            <p>Latitude: {{getData().lat}}</p>
-            <p>Longitude: {{getData().lon}}</p>
-            <p>Localização: {{getData().localizacao}}</p>
-            <p>Horário: {{getData().data}}</p>
-            <p>Metar: {{getData().metar}}</p>
-            <p>Temperatura: {{getData().temperatura}}</p>
-            <p>Teto: {{getData().teto}}</p>
-            <p>Umidade: {{getData().ur}}</p>
-            <p>Direção do Vento: {{getData().vento}}</p>
-            <p>Cidade: {{getData().cidade}}</p>
-            <p>Céu: {{getData().ceu}}</p>
-            <p>Condições: {{getData().condicoes_tempo}}</p>
-            <p>Visibilidae: {{getData().visibilidade}}</p>
-        </section>
-    </mat-dialog-content>
-    <button mat-raised-button color="primary" (click)="closeDialog()">Fechar</button>
-}@placeholder {<h2>Carregando ...</h2>}
-
-
+<h2 mat-dialog-title>{{ getData().localidade }} - {{ getData().nome }}</h2>
+<div>
+  @if (itemData() === 'g') {<button class="g">VFR</button>}@else if (itemData()
+  === 'y') {<button class="y">IFR</button>}@else if (itemData() === 'r') {<button
+    class="r"
+  >
+    LIFR</button
+  >}@else if (itemData() === 'cinza') {<button class="out">OUT</button>}
+</div>
+<mat-dialog-content>
+  <section>
+    <p>ICAO: {{ getData().localidade }}</p>
+    <p>Latitude: {{ getData().lat }}</p>
+    <p>Longitude: {{ getData().lon }}</p>
+    <p>Localização: {{ getData().localizacao }}</p>
+    <p>Horário: {{ getData().data }}</p>
+    <p>Metar: {{ getData().metar }}</p>
+    <p>Temperatura: {{ getData().temperatura }}</p>
+    <p>Teto: {{ getData().teto }}</p>
+    <p>Umidade: {{ getData().ur }}</p>
+    <p>Direção do Vento: {{ getData().vento }}</p>
+    <p>Cidade: {{ getData().cidade }}</p>
+    <p>Céu: {{ getData().ceu }}</p>
+    <p>Condições: {{ getData().condicoes_tempo }}</p>
+    <p>Visibilidae: {{ getData().visibilidade }}</p>
+  </section>
+</mat-dialog-content>
+<button mat-raised-button color="primary" (click)="closeDialog()">
+  Fechar
+</button>
+}@placeholder {
+<h2>Carregando ...</h2>
+}
