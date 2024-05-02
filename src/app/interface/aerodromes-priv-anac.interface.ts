@@ -15,5 +15,5 @@ export interface AErodromesPrivAnac {
   Largura1: number;
   Resistencia1: string;
   Superficie1: string;
-  ValidadedoRegistro: string;
+  //ValidadedoRegistro?: string;
 }
