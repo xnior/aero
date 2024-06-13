@@ -1,29 +1,47 @@
 <section>
+ 
+
   <div class="menu-button-row menu">
     <ul>
       <li>
-      <button mat-raised-button routerLink="metar" routerLinkActive="primary">
-        Metar
-      </button>
-    </li>
-    <li>
-      <button mat-raised-button routerLink="status" routerLinkActive="primary">
-        Status
-      </button>
-    </li>
-    <li>
-      <button mat-raised-button routerLink="priv-anac" routerLinkActive="primary">Aerodromos</button>
-    </li>
-<li>
-  <button mat-raised-button routerLink="geo" routerLinkActive="primary">Rotas</button>
-</li>
-<li>
-  <button mat-raised-button (click)="reload()" routerLink=""><mat-icon>refresh</mat-icon>reload</button>
-</li>  
-</ul>
+        <button mat-raised-button routerLink="metar" routerLinkActive="primary">
+          Metar
+        </button>
+      </li>
+      <li>
+        <button
+          mat-raised-button
+          routerLink="status"
+          routerLinkActive="primary"
+        >
+          Status
+        </button>
+      </li>
+      <li>
+        <button
+          mat-raised-button
+          routerLink="priv-anac"
+          routerLinkActive="primary"
+        >
+          Aerodromos
+        </button>
+      </li>
+      <li>
+        <button mat-raised-button routerLink="geo" routerLinkActive="primary">
+          Rotas
+        </button>
+      </li>
+      <li>
+        <button mat-raised-button (click)="reload()" routerLink="">
+          <mat-icon>refresh</mat-icon>reload
+        </button>
+      </li>
+    </ul>
     <!-- <button mat-raised-button disabled>Dis</button> -->
   </div>
-@defer{
+  @defer{
   <router-outlet />
-}@loading {Módulo em carregamento, aguarde...}@placeholder {<h2>Carregando módulo , aguarde...</h2>}
+  }@loading {Módulo em carregamento, aguarde...}@placeholder {
+  <h2>Carregando módulo , aguarde...</h2>
+  }
 </section>

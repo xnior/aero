@@ -8,21 +8,23 @@ import { MatTooltipModule } from "@angular/material/tooltip";
 import {MatMenuModule} from '@angular/material/menu';
 import { ApiService } from "./services/api.service";
 import { MatIconModule } from "@angular/material/icon";
+import { HttpClientModule } from "@angular/common/http";
 
 @Component({
   selector: "app-root",
   standalone: true,
   imports: [
     CommonModule,
-    RouterOutlet,
     ConsumeServicesComponent,
     DisplayComponent,
+    RouterOutlet,
     RouterLink,
     RouterLinkActive,
     MatButtonModule,
     MatTooltipModule,
     MatMenuModule,
     MatIconModule,
+    HttpClientModule,
   ],
   templateUrl: "./app.component.html",
   styleUrl: "./app.component.scss",
