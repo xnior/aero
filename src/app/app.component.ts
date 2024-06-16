@@ -1,6 +1,6 @@
 import { Component, inject } from "@angular/core";
 import { CommonModule } from "@angular/common";
-import { RouterLink, RouterLinkActive, RouterModule, RouterOutlet } from "@angular/router";
+import { RouterLink, RouterLinkActive, RouterOutlet } from "@angular/router";
 import { ConsumeServicesComponent } from "./pages/consume-services/consume-services.component";
 import { DisplayComponent } from "./pages/metar/metar.component";
 import { MatButtonModule } from "@angular/material/button";
@@ -24,12 +24,8 @@ import {} from "@angular/common/http";
     MatTooltipModule,
     MatMenuModule,
     MatIconModule,
-    
-// TODO: `HttpClientModule` should not be imported into a component directly.
-// Please refactor the code to add `provideHttpClient()` call to the provider list in the
-// application bootstrap logic and remove the `HttpClientModule` import from this component.
-HttpClientModule,
   ],
+
   templateUrl: "./app.component.html",
   styleUrl: "./app.component.scss",
 })
