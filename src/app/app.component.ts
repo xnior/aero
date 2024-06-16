@@ -8,7 +8,7 @@ import { MatTooltipModule } from "@angular/material/tooltip";
 import {MatMenuModule} from '@angular/material/menu';
 import { ApiService } from "./services/api.service";
 import { MatIconModule } from "@angular/material/icon";
-import { HttpClientModule } from "@angular/common/http";
+import {} from "@angular/common/http";
 
 @Component({
   selector: "app-root",
@@ -24,7 +24,11 @@ import { HttpClientModule } from "@angular/common/http";
     MatTooltipModule,
     MatMenuModule,
     MatIconModule,
-    HttpClientModule,
+    
+// TODO: `HttpClientModule` should not be imported into a component directly.
+// Please refactor the code to add `provideHttpClient()` call to the provider list in the
+// application bootstrap logic and remove the `HttpClientModule` import from this component.
+HttpClientModule,
   ],
   templateUrl: "./app.component.html",
   styleUrl: "./app.component.scss",
