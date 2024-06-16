@@ -44,6 +44,7 @@ testem.log
 /src/app/pages/geo
 /src/assets/DB
 /src/app/pages/map/map.component.ts
+/src/404.html
 
 # System files
 .DS_Store
