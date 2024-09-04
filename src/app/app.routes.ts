@@ -18,7 +18,7 @@ export const routes: Routes = [
         (res) => res.StatusComponent
       );
     },
-    title: "Status - Sistema Aeronáutico",
+    title: "STATUS - Sistema Aeronáutico",
   },
   {
     path: "priv-anac",
@@ -27,7 +27,7 @@ export const routes: Routes = [
         (res) => res.PrivAnacComponent
       );
     },
-    title: "Aerodromos Privados Brasil - Sistema Aeronáutico",
+    title: "AERODROMOS - Sistema Aeronáutico",
   },{
     path: "geo",
     loadComponent() {
