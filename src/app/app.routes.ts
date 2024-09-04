@@ -35,7 +35,7 @@ export const routes: Routes = [
         (res) => res.GeoComponent
       );
     },
-    title: "Calculo Rotas - Sistema Aeronáutico",
+    title: "ROTAS - Sistema Aeronáutico",
   },{
   path: "**",
   redirectTo: "metar",
