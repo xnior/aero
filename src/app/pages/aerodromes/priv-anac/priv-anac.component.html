@@ -1,6 +1,7 @@
 <section id="top">
   @if (dataSource) {
   <h2>Consulta de Aeródromos Data Base ANAC</h2>
+ 
   <!-- <p>
     Existem um total de {{ dataSource.filteredData.length }} Aeródromos, cadastrados no sistema
     da ANAC.
@@ -8,12 +9,15 @@
   
   
 }
-  <mat-form-field value="primary" appearance="outline">
-    <mat-label>Search</mat-label>
-    <input matInput oninput="this.value = this.value.toUpperCase()" (keyup)="applyFilter($event)" placeholder="Ex. Brasília" #input>
-    <mat-icon matSuffix>search</mat-icon>
-  </mat-form-field>
-  
+
+<mat-form-field value="primary" appearance="outline">
+  <mat-label>Search</mat-label>
+  <input matInput oninput="this.value = this.value.toUpperCase()" (keyup)="applyFilter($event)" placeholder="Ex. Brasília" #input>
+  <mat-icon matSuffix>search</mat-icon>
+</mat-form-field>
+<section id="update">
+  <strong>Atualização: {{lastUpdated}}</strong>
+</section>
   
   <div class="mat-elevation-z8 table-container">
     @if(dataSource){

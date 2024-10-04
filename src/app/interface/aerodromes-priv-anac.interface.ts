@@ -16,3 +16,7 @@ export interface AErodromesPrivAnac {
   Resistencia1: string;
   Superficie1: string;
 }
+
+export interface Updated {
+  updated: string;
+}

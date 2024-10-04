@@ -6,11 +6,10 @@ import { MatTableDataSource, MatTableModule } from "@angular/material/table";
 import { MatSortModule } from "@angular/material/sort";
 import { MatPaginator, MatPaginatorModule } from "@angular/material/paginator";
 import { MatIconModule } from "@angular/material/icon";
-import { AERODROMES_ANAC_PRIVATE } from "../../../../assets/DB/priv.db";
-import { MatDialog, MAT_DIALOG_DATA } from "@angular/material/dialog";
+import { UpdatedDate } from "../../../../assets/DB/priv.db";
+import { MatDialog } from "@angular/material/dialog";
 import { PrivAnacDialogComponent } from "../../../dialog/priv-anac-dialog/priv-anac-dialog.component";
 import { MatButtonModule } from "@angular/material/button";
-import { Observable, debounce } from "rxjs";
 import { AerodromesService } from "../../../services/aerodromes.service";
 
 @Component({
@@ -39,6 +38,7 @@ export class PrivAnacComponent implements OnInit,AfterViewInit {
   
   #aerodromesService = inject(AerodromesService);
   
+lastUpdated: string = UpdatedDate.updated;
 
   ngOnInit(): void {
 this.loadData();

@@ -1,7 +1,8 @@
 :host{
+  
     section{
         margin-top: 25px;
-        
+       
     }
     h2 {
         display: flex;
@@ -29,5 +30,11 @@
         flex-direction: column;
         min-width: 300px;
       }
+      
+      #update  {
+        display: flex;
+        justify-content: right;
+        margin-top: 0px;
+      }   
     }
    
