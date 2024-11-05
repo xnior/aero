@@ -3,7 +3,7 @@ import {
   Updated,
 } from "../../app/interface/aerodromes-priv-anac.interface";
 
-export const UpdatedDate: Updated = { updated: "03/10/2024" };
+export const UpdatedDate: Updated = { updated: "04/11/2024" };
 
 export const AERODROMES_ANAC_PRIVATE: AErodromesPrivAnac[] = [
     {
