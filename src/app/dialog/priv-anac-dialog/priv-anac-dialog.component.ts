@@ -6,11 +6,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 
 @Component({
-  selector: 'app-priv-anac-dialog',
-  standalone: true,
-  imports: [CommonModule, MatDialogTitle, MatDialogContent, MatButtonModule, MatIconModule],
-  templateUrl: './priv-anac-dialog.component.html',
-  styleUrl: './priv-anac-dialog.component.scss'
+    selector: 'app-priv-anac-dialog',
+    imports: [CommonModule, MatDialogTitle, MatDialogContent, MatButtonModule, MatIconModule],
+    templateUrl: './priv-anac-dialog.component.html',
+    styleUrl: './priv-anac-dialog.component.scss'
 })
 export class PrivAnacDialogComponent  {
   constructor(@Inject(MAT_DIALOG_DATA) private _data: AErodromesPrivAnac,

@@ -4,11 +4,10 @@ import { CommonModule } from "@angular/common";
 import { FormsModule } from "@angular/forms";
 
 @Component({
-  selector: "app-consume-services",
-  standalone: true,
-  imports: [CommonModule, FormsModule],
-  templateUrl: "./consume-services.component.html",
-  styleUrl: "./consume-services.component.scss",
+    selector: "app-consume-services",
+    imports: [CommonModule, FormsModule],
+    templateUrl: "./consume-services.component.html",
+    styleUrl: "./consume-services.component.scss"
 })
 export class ConsumeServicesComponent {
   #apiService = inject(ApiService);

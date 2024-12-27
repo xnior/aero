@@ -13,19 +13,18 @@ import { MatButtonModule } from "@angular/material/button";
 import { AerodromesService } from "../../../services/aerodromes.service";
 
 @Component({
-  selector: "app-priv-anac",
-  standalone: true,
-  imports: [
-    MatFormFieldModule,
-    MatInputModule,
-    MatTableModule,
-    MatSortModule,
-    MatPaginatorModule,
-    MatIconModule,
-    MatButtonModule
-  ],
-  templateUrl: "./priv-anac.component.html",
-  styleUrl: "./priv-anac.component.scss",
+    selector: "app-priv-anac",
+    imports: [
+        MatFormFieldModule,
+        MatInputModule,
+        MatTableModule,
+        MatSortModule,
+        MatPaginatorModule,
+        MatIconModule,
+        MatButtonModule
+    ],
+    templateUrl: "./priv-anac.component.html",
+    styleUrl: "./priv-anac.component.scss"
 })
 export class PrivAnacComponent implements OnInit,AfterViewInit {
   

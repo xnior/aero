@@ -4,11 +4,10 @@ import { ApiService } from "../../services/api.service";
 import { MatButtonModule } from "@angular/material/button";
 
 @Component({
-  selector: "app-dialog",
-  standalone: true,
-  imports: [MatDialogModule, MatButtonModule],
-  templateUrl: "./dialog.component.html",
-  styleUrl: "./dialog.component.scss",
+    selector: "app-dialog",
+    imports: [MatDialogModule, MatButtonModule],
+    templateUrl: "./dialog.component.html",
+    styleUrl: "./dialog.component.scss"
 })
 export class DialogComponent implements OnInit {
   #apiService = inject(ApiService);

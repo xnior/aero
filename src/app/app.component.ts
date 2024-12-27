@@ -11,23 +11,21 @@ import { MatIconModule } from "@angular/material/icon";
 import {} from "@angular/common/http";
 
 @Component({
-  selector: "app-root",
-  standalone: true,
-  imports: [
-    CommonModule,
-    ConsumeServicesComponent,
-    DisplayComponent,
-    RouterOutlet,
-    RouterLink,
-    RouterLinkActive,
-    MatButtonModule,
-    MatTooltipModule,
-    MatMenuModule,
-    MatIconModule,
-  ],
-
-  templateUrl: "./app.component.html",
-  styleUrl: "./app.component.scss",
+    selector: "app-root",
+    imports: [
+        CommonModule,
+        ConsumeServicesComponent,
+        DisplayComponent,
+        RouterOutlet,
+        RouterLink,
+        RouterLinkActive,
+        MatButtonModule,
+        MatTooltipModule,
+        MatMenuModule,
+        MatIconModule,
+    ],
+    templateUrl: "./app.component.html",
+    styleUrl: "./app.component.scss"
 })
 export class AppComponent {
   #apiService = inject(ApiService);

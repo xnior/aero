@@ -16,11 +16,10 @@ import { MatDialog } from "@angular/material/dialog";
 import { ConsumeServicesComponent } from "../consume-services/consume-services.component";
 
 @Component({
-  selector: "app-status",
-  standalone: true,
-  imports: [FormsModule, SearchPipe, MatTableModule,ConsumeServicesComponent],
-  templateUrl: "./status.component.html",
-  styleUrl: "./status.component.scss",
+    selector: "app-status",
+    imports: [FormsModule, SearchPipe, MatTableModule, ConsumeServicesComponent],
+    templateUrl: "./status.component.html",
+    styleUrl: "./status.component.scss"
 })
 export class StatusComponent implements OnInit, OnDestroy {
   constructor() {}

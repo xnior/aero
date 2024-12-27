@@ -7,11 +7,10 @@ import { metar } from "../../interface/metar.interface";
 import { ConsumeServicesComponent } from "../consume-services/consume-services.component";
 
 @Component({
-  selector: "app-metar",
-  standalone: true,
-  imports: [CommonModule, MatTableModule,ConsumeServicesComponent],
-  templateUrl: "./metar.component.html",
-  styleUrl: "./metar.component.scss",
+    selector: "app-metar",
+    imports: [CommonModule, MatTableModule, ConsumeServicesComponent],
+    templateUrl: "./metar.component.html",
+    styleUrl: "./metar.component.scss"
 })
 export class DisplayComponent implements OnInit, OnDestroy {
   #apiService = inject(ApiService);
