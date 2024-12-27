@@ -1,8 +1,6 @@
 import { Component, inject } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterLink, RouterLinkActive, RouterOutlet } from "@angular/router";
-import { ConsumeServicesComponent } from "./pages/consume-services/consume-services.component";
-import { DisplayComponent } from "./pages/metar/metar.component";
 import { MatButtonModule } from "@angular/material/button";
 import { MatTooltipModule } from "@angular/material/tooltip";
 import {MatMenuModule} from '@angular/material/menu';
@@ -12,10 +10,9 @@ import {} from "@angular/common/http";
 
 @Component({
     selector: "app-root",
+    standalone: true,
     imports: [
         CommonModule,
-        ConsumeServicesComponent,
-        DisplayComponent,
         RouterOutlet,
         RouterLink,
         RouterLinkActive,

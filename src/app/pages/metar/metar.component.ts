@@ -8,6 +8,7 @@ import { ConsumeServicesComponent } from "../consume-services/consume-services.c
 
 @Component({
     selector: "app-metar",
+    standalone: true,
     imports: [CommonModule, MatTableModule, ConsumeServicesComponent],
     templateUrl: "./metar.component.html",
     styleUrl: "./metar.component.scss"
