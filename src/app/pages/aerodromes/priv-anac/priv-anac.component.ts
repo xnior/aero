@@ -6,7 +6,7 @@ import { MatTableDataSource, MatTableModule } from "@angular/material/table";
 import { MatSortModule } from "@angular/material/sort";
 import { MatPaginator, MatPaginatorModule } from "@angular/material/paginator";
 import { MatIconModule } from "@angular/material/icon";
-import { UpdatedDate } from "../../../../assets/DB/priv.db";
+import { UpdatedDate } from "../../../../assets/DB/process.db";
 import { MatDialog } from "@angular/material/dialog";
 import { PrivAnacDialogComponent } from "../../../dialog/priv-anac-dialog/priv-anac-dialog.component";
 import { MatButtonModule } from "@angular/material/button";
