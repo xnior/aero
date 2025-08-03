@@ -6,7 +6,7 @@ import { databasePublic } from "./publ.db";
 import { databasePriv } from "./priv.db";
 
 
-export const UpdatedDate: Updated = { updated: "01/07/2025" };
+export const UpdatedDate: Updated = { updated: "03/08/2025" };
 export const AERODROMES_ANAC_PRIVATE: AErodromesPrivAnac[] = [ ...databasePriv, ...databasePublic ];
 
 
