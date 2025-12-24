@@ -4,7 +4,7 @@ import {
 
 export const databasePriv: AErodromesPrivAnac[] = [
     
-    {
+{
         "CodigoOACI":"SBGP",
         "Nome":"EMBRAER - Unidade Gavião Peixoto",
         "Municipio":"GAVIÃO PEIXOTO",
@@ -525,6 +525,24 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
         "Superficie1":"Grama"
+    },
+    {
+        "CodigoOACI":"SWYJ",
+        "Nome":"San Martin",
+        "Municipio":"CAMPOS DOS GOYTACAZES",
+        "UF":"RJ",
+        "LatGeoPoint":-22.005833,
+        "LonGeoPoint":-41.230833,
+        "Latitude":"22°00'21\"S",
+        "Longitude":"041°13'51\"W",
+        "Altitude":0.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"08\/26",
+        "Comprimento1":500.0,
+        "Largura1":15.0,
+        "Resistencia1":"5600 Kg \/   0.50 MPa",
+        "Superficie1":"Terra"
     },
     {
         "CodigoOACI":"SDCZ",
@@ -2313,15 +2331,15 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Nome":"Gaúcha do Norte",
         "Municipio":"GAÚCHA DO NORTE",
         "UF":"MT",
-        "LatGeoPoint":-13.156111,
+        "LatGeoPoint":-13.155833,
         "LonGeoPoint":-53.250278,
-        "Latitude":"13°09'22\"S",
-        "Longitude":"053°15'01\"W",
+        "Latitude":"13°09'21.62\"S",
+        "Longitude":"053°15'01.71\"W",
         "Altitude":394.0,
         "OperacaoDiurna":null,
         "OperacaoNoturna":null,
         "Designacao1":"02\/20",
-        "Comprimento1":800.0,
+        "Comprimento1":1000.0,
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
         "Superficie1":"Cascalho"
@@ -3925,24 +3943,6 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Designacao1":"06\/24",
         "Comprimento1":1250.0,
         "Largura1":20.0,
-        "Resistencia1":"5600 Kg \/   0.50 MPa",
-        "Superficie1":"Cascalho"
-    },
-    {
-        "CodigoOACI":"SIPO",
-        "Nome":"Sebastião José Pereira",
-        "Municipio":"CONDEÚBA",
-        "UF":"BA",
-        "LatGeoPoint":-14.924167,
-        "LonGeoPoint":-41.956667,
-        "Latitude":"14°55'27\"S",
-        "Longitude":"041°57'24\"W",
-        "Altitude":689.0,
-        "OperacaoDiurna":"VFR",
-        "OperacaoNoturna":"Sem Operação",
-        "Designacao1":"13\/31",
-        "Comprimento1":1100.0,
-        "Largura1":30.0,
         "Resistencia1":"5600 Kg \/   0.50 MPa",
         "Superficie1":"Cascalho"
     },
@@ -10445,24 +10445,6 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":"SNFQ",
-        "Nome":"Fazenda Bandeirantes",
-        "Municipio":"NOVA MARILÂNDIA",
-        "UF":"MT",
-        "LatGeoPoint":-14.348056,
-        "LonGeoPoint":-56.949167,
-        "Latitude":"14°20'53.45\"S",
-        "Longitude":"056°56'57.02\"W",
-        "Altitude":332.0,
-        "OperacaoDiurna":"VFR",
-        "OperacaoNoturna":"Sem Operação",
-        "Designacao1":"09\/27",
-        "Comprimento1":1200.0,
-        "Largura1":18.0,
-        "Resistencia1":"5700 Kg \/   0.50 MPa",
-        "Superficie1":"Cascalho"
-    },
-    {
         "CodigoOACI":"SSGX",
         "Nome":"Guacho",
         "Municipio":"SANTA CRUZ DO RIO PARDO",
@@ -10769,7 +10751,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD1N",
         "Nome":"Fazenda Novo Horizonte",
         "Municipio":"MIRANDA",
         "UF":"MS",
@@ -10931,33 +10913,15 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":"SNWL",
-        "Nome":"Fazenda Santarém",
-        "Municipio":"BANDEIRANTES",
-        "UF":"MS",
-        "LatGeoPoint":-20.045278,
-        "LonGeoPoint":-54.165278,
-        "Latitude":"20°02'43\"S",
-        "Longitude":"054°09'55\"W",
-        "Altitude":576.0,
-        "OperacaoDiurna":"VFR",
-        "OperacaoNoturna":"Sem Operação",
-        "Designacao1":"02\/20",
-        "Comprimento1":1100.0,
-        "Largura1":23.0,
-        "Resistencia1":"5600 Kg \/   0.50 MPa",
-        "Superficie1":"Cascalho"
-    },
-    {
         "CodigoOACI":"SNXI",
         "Nome":"Alberto Ramos",
         "Municipio":"CORDISBURGO",
         "UF":"MG",
-        "LatGeoPoint":-19.087222,
-        "LonGeoPoint":-44.327778,
-        "Latitude":"19°05'14\"S",
-        "Longitude":"044°19'40\"W",
-        "Altitude":755.0,
+        "LatGeoPoint":-19.086944,
+        "LonGeoPoint":-44.328333,
+        "Latitude":"19°05'13.58\"S",
+        "Longitude":"044°19'42.42\"W",
+        "Altitude":762.0,
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"Sem Operação",
         "Designacao1":"02\/20",
@@ -13110,17 +13074,17 @@ export const databasePriv: AErodromesPrivAnac[] = [
     },
     {
         "CodigoOACI":"SIAG",
-        "Nome":"Fazenda Goiasa",
+        "Nome":"Usina Goiasa",
         "Municipio":"GOIATUBA",
         "UF":"GO",
-        "LatGeoPoint":-18.033611,
+        "LatGeoPoint":-18.033333,
         "LonGeoPoint":-49.705556,
-        "Latitude":"18°02'01\"S",
-        "Longitude":"049°42'20\"W",
+        "Latitude":"18°02'00.91\"S",
+        "Longitude":"049°42'20.49\"W",
         "Altitude":640.0,
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"Sem Operação",
-        "Designacao1":"06\/24",
+        "Designacao1":"08\/26",
         "Comprimento1":1200.0,
         "Largura1":30.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
@@ -13213,7 +13177,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Designacao1":"05\/23",
         "Comprimento1":1100.0,
         "Largura1":23.0,
-        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Resistencia1":"5600 Kg \/   0.50 MPa",
         "Superficie1":"Terra"
     },
     {
@@ -13823,7 +13787,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"VFR",
         "Designacao1":"15\/33",
-        "Comprimento1":1195.0,
+        "Comprimento1":1194.0,
         "Largura1":23.0,
         "Resistencia1":"13\/F\/D\/Y\/T",
         "Superficie1":"Asfalto"
@@ -14301,10 +14265,10 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Nome":"Bom Futuro",
         "Municipio":"CUIABÁ",
         "UF":"MT",
-        "LatGeoPoint":-15.506389,
+        "LatGeoPoint":-15.506111,
         "LonGeoPoint":-56.098333,
-        "Latitude":"15°30'23\"S",
-        "Longitude":"056°05'54\"W",
+        "Latitude":"15°30'22.92\"S",
+        "Longitude":"056°05'54.99\"W",
         "Altitude":234.0,
         "OperacaoDiurna":null,
         "OperacaoNoturna":null,
@@ -15327,18 +15291,18 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Nome":"Fazenda Ipê",
         "Municipio":"BAIXA GRANDE DO RIBEIRO",
         "UF":"PI",
-        "LatGeoPoint":-8.4277778,
-        "LonGeoPoint":-45.310278,
-        "Latitude":"08°25'40\"S",
-        "Longitude":"045°18'37\"W",
-        "Altitude":530.0,
+        "LatGeoPoint":-8.4280556,
+        "LonGeoPoint":-45.308333,
+        "Latitude":"08°25'41.07\"S",
+        "Longitude":"045°18'30.33\"W",
+        "Altitude":532.0,
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"Sem Operação",
         "Designacao1":"12\/30",
-        "Comprimento1":1500.0,
-        "Largura1":25.0,
-        "Resistencia1":"5700 Kg \/   0.50 MPa",
-        "Superficie1":"Piçarra"
+        "Comprimento1":1503.0,
+        "Largura1":20.0,
+        "Resistencia1":"270\/F\/A\/W\/T",
+        "Superficie1":"Asfalto"
     },
     {
         "CodigoOACI":"SDOQ",
@@ -19937,8 +19901,8 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "UF":"PR",
         "LatGeoPoint":-22.804444,
         "LonGeoPoint":-50.9825,
-        "Latitude":"22°48'16\"S",
-        "Longitude":"050°58'57.6\"W",
+        "Latitude":"22°48'16.08\"S",
+        "Longitude":"050°58'57.65\"W",
         "Altitude":350.0,
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"Sem Operação",
@@ -22804,11 +22768,11 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Altitude":183.0,
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"Sem Operação",
-        "Designacao1":"06\/24",
-        "Comprimento1":1350.0,
-        "Largura1":60.0,
-        "Resistencia1":"5670 Kg \/   0.50 MPa",
-        "Superficie1":"Cascalho"
+        "Designacao1":"11\/29",
+        "Comprimento1":1450.0,
+        "Largura1":20.0,
+        "Resistencia1":"10\/F\/A\/X\/T",
+        "Superficie1":"Asfalto"
     },
     {
         "CodigoOACI":"SJQU",
@@ -23849,9 +23813,9 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"Sem Operação",
         "Designacao1":"03\/21",
-        "Comprimento1":1800.0,
+        "Comprimento1":1900.0,
         "Largura1":30.0,
-        "Resistencia1":"6\/F\/B\/X\/T",
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
         "Superficie1":"Cascalho"
     },
     {
@@ -39587,24 +39551,6 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Grama"
     },
     {
-        "CodigoOACI":"SJJ9",
-        "Nome":"Fazenda Santa Maria",
-        "Municipio":"PARAÍSO DAS ÁGUAS",
-        "UF":"MS",
-        "LatGeoPoint":-19.394167,
-        "LonGeoPoint":-53.402778,
-        "Latitude":"19°23'39\"S",
-        "Longitude":"053°24'10\"W",
-        "Altitude":615.0,
-        "OperacaoDiurna":"VFR",
-        "OperacaoNoturna":"Sem Operação",
-        "Designacao1":"12\/30",
-        "Comprimento1":750.0,
-        "Largura1":18.0,
-        "Resistencia1":"5000 Kg \/   0.50 MPa",
-        "Superficie1":"Terra"
-    },
-    {
         "CodigoOACI":"SSUR",
         "Nome":"Fazenda Rio Fontoura",
         "Municipio":"SÃO FÉLIX DO ARAGUAIA",
@@ -44357,6 +44303,24 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
+        "CodigoOACI":"SIPV",
+        "Nome":"Fazenda Santa Vitória",
+        "Municipio":"TABAPORÃ",
+        "UF":"MT",
+        "LatGeoPoint":-11.417778,
+        "LonGeoPoint":-55.820556,
+        "Latitude":"11°25'04\"S",
+        "Longitude":"055°49'14\"W",
+        "Altitude":0.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"13\/31",
+        "Comprimento1":1125.0,
+        "Largura1":20.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Cascalho"
+    },
+    {
         "CodigoOACI":"SD32",
         "Nome":"Fazenda São José",
         "Municipio":"ITAITUBA",
@@ -46335,24 +46299,6 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
         "Superficie1":"Cascalho"
-    },
-    {
-        "CodigoOACI":"SWYJ",
-        "Nome":"San Martin",
-        "Municipio":"CAMPOS DOS GOYTACAZES",
-        "UF":"RJ",
-        "LatGeoPoint":-22.005833,
-        "LonGeoPoint":-41.230833,
-        "Latitude":"22°00'21\"S",
-        "Longitude":"041°13'51\"W",
-        "Altitude":0.0,
-        "OperacaoDiurna":"VFR",
-        "OperacaoNoturna":"Sem Operação",
-        "Designacao1":"08\/26",
-        "Comprimento1":500.0,
-        "Largura1":15.0,
-        "Resistencia1":"5600 Kg \/   0.50 MPa",
-        "Superficie1":"Terra"
     },
     {
         "CodigoOACI":"SI2E",
@@ -48861,18 +48807,18 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Nome":"Governador Divaldo Suruagy",
         "Municipio":"MARECHAL DEODORO",
         "UF":"AL",
-        "LatGeoPoint":-9.6944444,
+        "LatGeoPoint":-9.6941667,
         "LonGeoPoint":-35.831667,
-        "Latitude":"09°41'40\"S",
-        "Longitude":"035°49'54\"W",
+        "Latitude":"09°41'39.86\"S",
+        "Longitude":"035°49'54.19\"W",
         "Altitude":85.0,
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"VFR",
         "Designacao1":"15\/33",
-        "Comprimento1":1300.0,
-        "Largura1":20.0,
-        "Resistencia1":"5700 Kg \/   0.50 MPa",
-        "Superficie1":"Piçarra"
+        "Comprimento1":1299.0,
+        "Largura1":30.0,
+        "Resistencia1":"13\/R\/B\/X\/U",
+        "Superficie1":"Concreto"
     },
     {
         "CodigoOACI":"SJ2N",
@@ -51543,18 +51489,18 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Nome":"Fazenda Parnaguá",
         "Municipio":"SANTA FILOMENA",
         "UF":"PI",
-        "LatGeoPoint":-9.1047222,
-        "LonGeoPoint":-45.617778,
-        "Latitude":"09°06'17\"S",
-        "Longitude":"045°37'04\"W",
-        "Altitude":579.0,
+        "LatGeoPoint":-9.1055556,
+        "LonGeoPoint":-45.617222,
+        "Latitude":"09°06'20.73\"S",
+        "Longitude":"045°37'02.59\"W",
+        "Altitude":583.0,
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"Sem Operação",
         "Designacao1":"14\/32",
         "Comprimento1":1500.0,
         "Largura1":20.0,
         "Resistencia1":"12\/F\/B\/Y\/U",
-        "Superficie1":"Asfalto"
+        "Superficie1":"Cascalho"
     },
     {
         "CodigoOACI":"SDFT",
@@ -53105,7 +53051,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD1M",
         "Nome":"FAZENDA RIO BRANCO",
         "Municipio":"MARACAJU",
         "UF":"MS",
@@ -53193,24 +53139,6 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Largura1":20.0,
         "Resistencia1":"5600 Kg \/   0.50 MPa",
         "Superficie1":"Terra"
-    },
-    {
-        "CodigoOACI":"SIPV",
-        "Nome":"Fazenda Santa Vitória",
-        "Municipio":"TABAPORÃ",
-        "UF":"MT",
-        "LatGeoPoint":-11.417778,
-        "LonGeoPoint":-55.820556,
-        "Latitude":"11°25'04\"S",
-        "Longitude":"055°49'14\"W",
-        "Altitude":0.0,
-        "OperacaoDiurna":"VFR",
-        "OperacaoNoturna":"Sem Operação",
-        "Designacao1":"13\/31",
-        "Comprimento1":1125.0,
-        "Largura1":20.0,
-        "Resistencia1":"5700 Kg \/   0.50 MPa",
-        "Superficie1":"Cascalho"
     },
     {
         "CodigoOACI":"SJS6",
@@ -54543,6 +54471,78 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Largura1":18.0,
         "Resistencia1":"5600 Kg \/   0.50 MPa",
         "Superficie1":"Grama"
+    },
+    {
+        "CodigoOACI":"SD5C",
+        "Nome":"Fazenda Estrela Grande",
+        "Municipio":"ARAGUAPAZ",
+        "UF":"GO",
+        "LatGeoPoint":-15.154167,
+        "LonGeoPoint":-50.5325,
+        "Latitude":"15°09'15.74\"S",
+        "Longitude":"050°31'57.58\"W",
+        "Altitude":321.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"05\/23",
+        "Comprimento1":1100.0,
+        "Largura1":23.0,
+        "Resistencia1":"10\/F\/B\/X\/U",
+        "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":"SD1V",
+        "Nome":"Fazenda Lago Azul",
+        "Municipio":"NOVA CRIXÁS",
+        "UF":"GO",
+        "LatGeoPoint":-13.997222,
+        "LonGeoPoint":-50.799722,
+        "Latitude":"13°59'50.88\"S",
+        "Longitude":"050°47'59.06\"W",
+        "Altitude":0.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"VFR",
+        "Designacao1":"05\/23",
+        "Comprimento1":1115.0,
+        "Largura1":20.0,
+        "Resistencia1":"10\/F\/C\/Y\/U",
+        "Superficie1":"Terra"
+    },
+    {
+        "CodigoOACI":"SJ1F",
+        "Nome":"Fazenda Fortaleza",
+        "Municipio":"RIO VERDE",
+        "UF":"GO",
+        "LatGeoPoint":-18.157222,
+        "LonGeoPoint":-50.813056,
+        "Latitude":"18°09'26.23\"S",
+        "Longitude":"050°48'47.17\"W",
+        "Altitude":844.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"14\/32",
+        "Comprimento1":951.0,
+        "Largura1":18.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":"SDM1",
+        "Nome":"Fazenda Pontal Da Serra",
+        "Municipio":"MATEIROS",
+        "UF":"TO",
+        "LatGeoPoint":-10.506389,
+        "LonGeoPoint":-46.204167,
+        "Latitude":"10°30'23.97\"S",
+        "Longitude":"046°12'15.77\"W",
+        "Altitude":0.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"07\/25",
+        "Comprimento1":1200.0,
+        "Largura1":23.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Terra"
     },
     {
         "CodigoOACI":"SNCK",
@@ -56039,7 +56039,25 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SJA1",
+        "Nome":"Aaca Associação Aero Comodoro De Aviação",
+        "Municipio":"COMODORO",
+        "UF":"MT",
+        "LatGeoPoint":-13.621944,
+        "LonGeoPoint":-59.818611,
+        "Latitude":"13°37'19.38\"S",
+        "Longitude":"059°49'07.77\"W",
+        "Altitude":619.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"08\/26",
+        "Comprimento1":1398.0,
+        "Largura1":18.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Asfalto"
+    },
+    {
+        "CodigoOACI":"SD1C",
         "Nome":"Fazenda Indiana",
         "Municipio":"ITIQUIRA",
         "UF":"MT",
@@ -56111,7 +56129,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Piçarra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD75",
         "Nome":"JMG Agropecuária",
         "Municipio":"ABAETÉ",
         "UF":"MG",
@@ -56129,7 +56147,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD81",
         "Nome":"Fazenda Marplen",
         "Municipio":"RIO CRESPO",
         "UF":"RO",
@@ -57350,7 +57368,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Comprimento1":500.0,
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
-        "Superficie1":"Terra"
+        "Superficie1":"Asfalto"
     },
     {
         "CodigoOACI":"SS2A",
@@ -57906,6 +57924,42 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "OperacaoNoturna":"Sem Operação",
         "Designacao1":"17\/35",
         "Comprimento1":600.0,
+        "Largura1":18.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":null,
+        "Nome":"Fazenda Fibra Agro",
+        "Municipio":"ITAÚBA",
+        "UF":"MT",
+        "LatGeoPoint":-11.253889,
+        "LonGeoPoint":-55.6325,
+        "Latitude":"11°15'14.37\"S",
+        "Longitude":"055°37'57.69\"W",
+        "Altitude":385.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"11\/29",
+        "Comprimento1":1199.0,
+        "Largura1":18.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":"SD1X",
+        "Nome":"Fazenda Querência Agroer",
+        "Municipio":"PARANATINGA",
+        "UF":"MT",
+        "LatGeoPoint":-14.233611,
+        "LonGeoPoint":-53.904444,
+        "Latitude":"14°14'01.87\"S",
+        "Longitude":"053°54'16.89\"W",
+        "Altitude":0.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"13\/31",
+        "Comprimento1":900.0,
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
         "Superficie1":"Cascalho"
@@ -58686,18 +58740,18 @@ export const databasePriv: AErodromesPrivAnac[] = [
     },
     {
         "CodigoOACI":"SJ2C",
-        "Nome":"TARCÍSIO ROSADO",
+        "Nome":"MARCOS ROSADO",
         "Municipio":"TIBAU",
         "UF":"RN",
-        "LatGeoPoint":-4.8633333,
+        "LatGeoPoint":-4.8630556,
         "LonGeoPoint":-37.251111,
-        "Latitude":"04°51'48\"S",
-        "Longitude":"037°15'04\"W",
-        "Altitude":0.0,
+        "Latitude":"04°51'47.63\"S",
+        "Longitude":"037°15'04.14\"W",
+        "Altitude":4.0,
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"Sem Operação",
         "Designacao1":"10\/28",
-        "Comprimento1":700.0,
+        "Comprimento1":699.0,
         "Largura1":18.0,
         "Resistencia1":"5600 Kg \/   0.50 MPa",
         "Superficie1":"Piçarra"
@@ -59356,13 +59410,13 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Municipio":"ARAÇATUBA",
         "UF":"SP",
         "LatGeoPoint":-21.253056,
-        "LonGeoPoint":-50.534444,
-        "Latitude":"21°15'11\"S",
-        "Longitude":"050°32'04\"W",
-        "Altitude":421.0,
+        "LonGeoPoint":-50.533333,
+        "Latitude":"21°15'11.31\"S",
+        "Longitude":"050°32'00.93\"W",
+        "Altitude":420.0,
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"Sem Operação",
-        "Designacao1":"05\/23",
+        "Designacao1":"08\/26",
         "Comprimento1":800.0,
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
@@ -59711,7 +59765,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SJ75",
         "Nome":"Fazenda Santa Cecília",
         "Municipio":"CARMO DO PARANAÍBA",
         "UF":"MG",
@@ -59729,7 +59783,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SJ19",
         "Nome":"Fazenda Acarí",
         "Municipio":"CUJUBIM",
         "UF":"RO",
@@ -59745,6 +59799,24 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
         "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":"SD1F",
+        "Nome":"Fazenda Marupiara",
+        "Municipio":"TAILÂNDIA",
+        "UF":"PA",
+        "LatGeoPoint":-2.7555556,
+        "LonGeoPoint":-48.526111,
+        "Latitude":"02°45'20.99\"S",
+        "Longitude":"048°31'34.62\"W",
+        "Altitude":53.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"11\/29",
+        "Comprimento1":950.0,
+        "Largura1":20.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Piçarra"
     },
     {
         "CodigoOACI":"SISD",
@@ -60215,7 +60287,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SN9T",
         "Nome":"FAZENDA CRISTALINA",
         "Municipio":"NOVA MARINGÁ",
         "UF":"MT",
@@ -60305,7 +60377,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SW2A",
         "Nome":"Cesconetto",
         "Municipio":"EUNÁPOLIS",
         "UF":"BA",
@@ -60449,7 +60521,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Piçarra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SN9N",
         "Nome":"Bemad Portel",
         "Municipio":"PORTEL",
         "UF":"PA",
@@ -60629,7 +60701,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Piçarra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS4L",
         "Nome":"Major Brigadeiro Pedro Frazão de Medeiros Lima",
         "Municipio":"PRINCESA ISABEL",
         "UF":"PB",
@@ -60719,7 +60791,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNI3",
         "Nome":"Fazenda Paineiras",
         "Municipio":"JUARA",
         "UF":"MT",
@@ -60773,7 +60845,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS3R",
         "Nome":"Pista Grupo Venetto",
         "Municipio":"PEIXE",
         "UF":"TO",
@@ -60863,7 +60935,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNQ6",
         "Nome":"FAZENDA ÁGUA BRANCA",
         "Municipio":"CÁCERES",
         "UF":"MT",
@@ -61079,7 +61151,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS6C",
         "Nome":"AERÓDROMO FAZENDA MAFISA",
         "Municipio":"BAIXA GRANDE DO RIBEIRO",
         "UF":"PI",
@@ -61187,7 +61259,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS7P",
         "Nome":"PRG 1",
         "Municipio":"MATEIROS",
         "UF":"TO",
@@ -61223,7 +61295,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS74",
         "Nome":"São João",
         "Municipio":"PARANAÍTA",
         "UF":"MT",
@@ -61277,7 +61349,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SW1W",
         "Nome":"São Pedro",
         "Municipio":"SÃO DESIDÉRIO",
         "UF":"BA",
@@ -61295,7 +61367,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SW1Q",
         "Nome":"Rebouças",
         "Municipio":"RORAINÓPOLIS",
         "UF":"RR",
@@ -61313,7 +61385,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SI5A",
         "Nome":"Fazenda Isa - Agropecuária Wvs",
         "Municipio":"ITAITUBA",
         "UF":"PA",
@@ -61421,7 +61493,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD1E",
         "Nome":"Fazenda Rio Capim",
         "Municipio":"PARAGOMINAS",
         "UF":"PA",
@@ -61457,7 +61529,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD65",
         "Nome":"Fazenda Santa Cecília",
         "Municipio":"CUMARU DO NORTE",
         "UF":"PA",
@@ -61475,7 +61547,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD80",
         "Nome":"Fazenda Santo Antônio",
         "Municipio":"GOIANÉSIA DO PARÁ",
         "UF":"PA",
@@ -61493,7 +61565,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD1D",
         "Nome":"Fazenda Ponte de Pedra",
         "Municipio":"CAMPO NOVO DO PARECIS",
         "UF":"MT",
@@ -61509,6 +61581,60 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Largura1":20.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
         "Superficie1":"Terra"
+    },
+    {
+        "CodigoOACI":"SNFQ",
+        "Nome":"Fazenda Bandeirantes",
+        "Municipio":"NOVA MARILÂNDIA",
+        "UF":"MT",
+        "LatGeoPoint":-14.348333,
+        "LonGeoPoint":-56.949722,
+        "Latitude":"14°20'54.38\"S",
+        "Longitude":"056°56'59.36\"W",
+        "Altitude":330.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"09\/27",
+        "Comprimento1":1400.0,
+        "Largura1":20.0,
+        "Resistencia1":"16\/F\/B\/Y\/U",
+        "Superficie1":"Asfalto"
+    },
+    {
+        "CodigoOACI":"SD1L",
+        "Nome":"Grupo Shimohira - TO",
+        "Municipio":"PONTE ALTA DO TOCANTINS",
+        "UF":"TO",
+        "LatGeoPoint":-10.886944,
+        "LonGeoPoint":-47.223611,
+        "Latitude":"10°53'13.92\"S",
+        "Longitude":"047°13'25.06\"W",
+        "Altitude":0.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"01\/19",
+        "Comprimento1":1250.0,
+        "Largura1":20.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Terra"
+    },
+    {
+        "CodigoOACI":"SIPO",
+        "Nome":"Sebastião José Pereira",
+        "Municipio":"CONDEÚBA",
+        "UF":"BA",
+        "LatGeoPoint":-14.923889,
+        "LonGeoPoint":-41.958056,
+        "Latitude":"14°55'26.26\"S",
+        "Longitude":"041°57'29.08\"W",
+        "Altitude":694.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"13\/31",
+        "Comprimento1":1199.0,
+        "Largura1":20.0,
+        "Resistencia1":"10\/F\/B\/Y\/T",
+        "Superficie1":"Asfalto"
     },
     {
         "CodigoOACI":"SI7Y",
@@ -61799,7 +61925,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SW29",
         "Nome":"Fazenda Campo Bonito",
         "Municipio":"AMAJARI",
         "UF":"RR",
@@ -62123,7 +62249,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SN99",
         "Nome":"FAZENDA NEBRASKA",
         "Municipio":"BALSAS",
         "UF":"MA",
@@ -62285,7 +62411,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNL4",
         "Nome":"Fazenda Campo Belo",
         "Municipio":"CORUMBÁ",
         "UF":"MS",
@@ -62447,7 +62573,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS2N",
         "Nome":"Fazenda Maná",
         "Municipio":"TUNTUM",
         "UF":"MA",
@@ -62501,7 +62627,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNQ7",
         "Nome":"Aeródromo Privado Fazenda Santa Rita",
         "Municipio":"ANAURILÂNDIA",
         "UF":"MS",
@@ -62519,7 +62645,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Grama"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS4W",
         "Nome":"FAZENDA BORORO",
         "Municipio":"SANTA RITA DO PARDO",
         "UF":"MS",
@@ -62537,7 +62663,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS8H",
         "Nome":"Fazenda Santo Antônio",
         "Municipio":"RIBAS DO RIO PARDO",
         "UF":"MS",
@@ -62573,7 +62699,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS8C",
         "Nome":"Fazenda Orion",
         "Municipio":"BELA VISTA",
         "UF":"MS",
@@ -62591,7 +62717,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Grama"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS66",
         "Nome":"Fazenda Paraíso",
         "Municipio":"BONFIM",
         "UF":"RR",
@@ -62609,7 +62735,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Piçarra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNT2",
         "Nome":"DOIS IRMÃOS",
         "Municipio":"DOIS IRMÃOS DO TOCANTINS",
         "UF":"TO",
@@ -62663,7 +62789,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNZ7",
         "Nome":"FRANCO",
         "Municipio":"SÃO JOSÉ DOS QUATRO MARCOS",
         "UF":"MT",
@@ -62681,7 +62807,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD09",
         "Nome":"FAZENDA UNIÃO",
         "Municipio":"SÃO FÉLIX DO ARAGUAIA",
         "UF":"MT",
@@ -62951,7 +63077,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SIM0",
         "Nome":"Fazenda Monte Alto",
         "Municipio":"PEABIRU",
         "UF":"PR",
@@ -62969,7 +63095,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SDG5",
         "Nome":"Fazenda Guaraciaba",
         "Municipio":"FRUTAL",
         "UF":"MG",
@@ -63005,6 +63131,24 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
+        "CodigoOACI":"SD1P",
+        "Nome":"Fazenda Agropecuária Rio da Prata",
+        "Municipio":"SANTA BÁRBARA DO PARÁ",
+        "UF":"PA",
+        "LatGeoPoint":-1.2080556,
+        "LonGeoPoint":-48.161944,
+        "Latitude":"01°12'29.96\"S",
+        "Longitude":"048°09'43.63\"W",
+        "Altitude":33.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"11\/29",
+        "Comprimento1":1200.0,
+        "Largura1":23.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Piçarra"
+    },
+    {
         "CodigoOACI":"SWUV",
         "Nome":"Fazenda Progresso",
         "Municipio":"SEBASTIÃO LEAL",
@@ -63023,7 +63167,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SSB2",
         "Nome":"Âncora Lodge",
         "Municipio":"GAÚCHA DO NORTE",
         "UF":"MT",
@@ -63059,7 +63203,25 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Grama"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD1R",
+        "Nome":"Fazenda Reginatto",
+        "Municipio":"FORMOSA DO RIO PRETO",
+        "UF":"BA",
+        "LatGeoPoint":-10.744444,
+        "LonGeoPoint":-45.657222,
+        "Latitude":"10°44'40.37\"S",
+        "Longitude":"045°39'26.38\"W",
+        "Altitude":765.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"13\/31",
+        "Comprimento1":799.0,
+        "Largura1":18.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":"SJJI",
         "Nome":"Fazenda São José",
         "Municipio":"MATUPÁ",
         "UF":"MT",
@@ -63072,6 +63234,60 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "OperacaoNoturna":"Sem Operação",
         "Designacao1":"15\/33",
         "Comprimento1":1198.0,
+        "Largura1":18.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":"SJ14",
+        "Nome":"Fazenda Sucupira",
+        "Municipio":"FIGUEIRÓPOLIS",
+        "UF":"TO",
+        "LatGeoPoint":-12.461111,
+        "LonGeoPoint":-49.388056,
+        "Latitude":"12°27'40.52\"S",
+        "Longitude":"049°23'17.84\"W",
+        "Altitude":268.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"03\/21",
+        "Comprimento1":730.0,
+        "Largura1":25.0,
+        "Resistencia1":"10\/F\/B\/Y\/U",
+        "Superficie1":"Terra"
+    },
+    {
+        "CodigoOACI":"SN1R",
+        "Nome":"Fazenda São Roque",
+        "Municipio":"BRASNORTE",
+        "UF":"MT",
+        "LatGeoPoint":-12.759444,
+        "LonGeoPoint":-58.223056,
+        "Latitude":"12°45'34.43\"S",
+        "Longitude":"058°13'23.17\"W",
+        "Altitude":0.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"13\/31",
+        "Comprimento1":1199.0,
+        "Largura1":20.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":"SD1I",
+        "Nome":"Fazenda São João Agroer",
+        "Municipio":"GAÚCHA DO NORTE",
+        "UF":"MT",
+        "LatGeoPoint":-13.486111,
+        "LonGeoPoint":-53.945278,
+        "Latitude":"13°29'10.4\"S",
+        "Longitude":"053°56'43.35\"W",
+        "Altitude":0.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"03\/21",
+        "Comprimento1":1000.0,
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
         "Superficie1":"Cascalho"
@@ -63143,7 +63359,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"Sem Operação",
         "Designacao1":"10\/28",
-        "Comprimento1":410.0,
+        "Comprimento1":600.0,
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
         "Superficie1":"Terra"
@@ -63491,7 +63707,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SJ6O",
         "Nome":"VILA PANAMBI",
         "Municipio":"FORMOSA DO RIO PRETO",
         "UF":"BA",
@@ -63599,7 +63815,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS2B",
         "Nome":"Braço do Norte",
         "Municipio":"NOVO MUNDO",
         "UF":"MT",
@@ -63689,7 +63905,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SN9X",
         "Nome":"FAZENDA LARANJAL",
         "Municipio":"PLANALTO DA SERRA",
         "UF":"MT",
@@ -63725,7 +63941,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SW2C",
         "Nome":"FAZENDA RECREIO",
         "Municipio":"PARANATINGA",
         "UF":"MT",
@@ -63797,7 +64013,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNC6",
         "Nome":"Fazenda Brejo",
         "Municipio":"GUADALUPE",
         "UF":"PI",
@@ -63923,7 +64139,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNM2",
         "Nome":"Dr. Almir Lopes de Oliveira Melo",
         "Municipio":"COELHO NETO",
         "UF":"MA",
@@ -64049,7 +64265,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNT6",
         "Nome":"GENESIO CEOLIN",
         "Municipio":"SÃO DESIDÉRIO",
         "UF":"BA",
@@ -64067,7 +64283,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS8S",
         "Nome":"Aeródromo Agropecuária BIM - Fazenda Cristalina",
         "Municipio":"TESOURO",
         "UF":"MT",
@@ -64085,7 +64301,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD03",
         "Nome":"FAZENDA SÃO CRISTÓVÃO",
         "Municipio":"BODOQUENA",
         "UF":"MS",
@@ -64157,7 +64373,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Piçarra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNS9",
         "Nome":"ATACADÃO DIA À DIA 1",
         "Municipio":"PADRE BERNARDO",
         "UF":"GO",
@@ -64229,7 +64445,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNP4",
         "Nome":"Fazenda Continental",
         "Municipio":"CLÁUDIA",
         "UF":"MT",
@@ -64265,7 +64481,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNZ9",
         "Nome":"Roça Agronegócios",
         "Municipio":"NOVO MUNDO",
         "UF":"MT",
@@ -64391,7 +64607,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Grama"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNG2",
         "Nome":"FAZENDA NOSSA SENHORA DO CARMO II",
         "Municipio":"COMODORO",
         "UF":"MT",
@@ -64535,7 +64751,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD09",
         "Nome":"Cidade de Goiás",
         "Municipio":"GOIÁS",
         "UF":"GO",
@@ -64553,7 +64769,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS7S",
         "Nome":"Fazenda Boa Esperança",
         "Municipio":"SALTO DO CÉU",
         "UF":"MT",
@@ -64571,7 +64787,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD14",
         "Nome":"Bom Sucesso",
         "Municipio":"VAZANTE",
         "UF":"MG",
@@ -64589,7 +64805,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS8X",
         "Nome":"Diplomata",
         "Municipio":"UBERABA",
         "UF":"MG",
@@ -64643,7 +64859,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SD08",
         "Nome":"Fazenda Martelli 1",
         "Municipio":"TAPURAH",
         "UF":"MT",
@@ -64661,7 +64877,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SSB7",
         "Nome":"Fazenda Santa Paula",
         "Municipio":"JABORANDI",
         "UF":"BA",
@@ -64679,7 +64895,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SJ12",
         "Nome":"Fazenda São José Terra Roxa",
         "Municipio":"SELVÍRIA",
         "UF":"MS",
@@ -64715,6 +64931,42 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
+        "CodigoOACI":null,
+        "Nome":"Fazenda Piratini",
+        "Municipio":"JABORANDI",
+        "UF":"BA",
+        "LatGeoPoint":-13.886944,
+        "LonGeoPoint":-45.758889,
+        "Latitude":"13°53'13.84\"S",
+        "Longitude":"045°45'32.49\"W",
+        "Altitude":865.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"08\/26",
+        "Comprimento1":1700.0,
+        "Largura1":23.0,
+        "Resistencia1":"12\/F\/B\/Y\/U",
+        "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":"SD1K",
+        "Nome":"Fazenda Ranchinho",
+        "Municipio":"CAMAPUÃ",
+        "UF":"MS",
+        "LatGeoPoint":-19.530278,
+        "LonGeoPoint":-53.536389,
+        "Latitude":"19°31'49.66\"S",
+        "Longitude":"053°32'11.13\"W",
+        "Altitude":485.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"06\/24",
+        "Comprimento1":1198.0,
+        "Largura1":25.0,
+        "Resistencia1":"5600 Kg \/   0.50 MPa",
+        "Superficie1":"Terra"
+    },
+    {
         "CodigoOACI":"SDV1",
         "Nome":"Fazenda Viscal",
         "Municipio":"ARAGUAÇU",
@@ -64733,7 +64985,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SSC7",
         "Nome":"Fazenda Maria II",
         "Municipio":"JABORANDI",
         "UF":"BA",
@@ -64769,6 +65021,60 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
+        "CodigoOACI":"SJW1",
+        "Nome":"Fazenda Arapuã",
+        "Municipio":"BALSAS",
+        "UF":"MA",
+        "LatGeoPoint":-8.1330556,
+        "LonGeoPoint":-46.144167,
+        "Latitude":"08°07'59.62\"S",
+        "Longitude":"046°08'39.98\"W",
+        "Altitude":565.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"02\/20",
+        "Comprimento1":1900.0,
+        "Largura1":20.0,
+        "Resistencia1":"10\/F\/C\/Y\/U",
+        "Superficie1":"Terra"
+    },
+    {
+        "CodigoOACI":null,
+        "Nome":"Fazenda Campo Belo",
+        "Municipio":"CAMPINA VERDE",
+        "UF":"MG",
+        "LatGeoPoint":-19.494722,
+        "LonGeoPoint":-49.441111,
+        "Latitude":"19°29'41.81\"S",
+        "Longitude":"049°26'28.91\"W",
+        "Altitude":0.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"18\/36",
+        "Comprimento1":753.0,
+        "Largura1":20.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Piçarra"
+    },
+    {
+        "CodigoOACI":null,
+        "Nome":"Fazenda Fortaleza",
+        "Municipio":"NOVA XAVANTINA",
+        "UF":"MT",
+        "LatGeoPoint":-14.7075,
+        "LonGeoPoint":-52.183056,
+        "Latitude":"14°42'27\"S",
+        "Longitude":"052°10'59\"W",
+        "Altitude":294.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"18\/36",
+        "Comprimento1":799.0,
+        "Largura1":18.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Terra"
+    },
+    {
         "CodigoOACI":"SWSL",
         "Nome":"Aviação Estrela Bôscoli",
         "Municipio":"LUCAS DO RIO VERDE",
@@ -64799,7 +65105,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "OperacaoDiurna":"VFR",
         "OperacaoNoturna":"VFR",
         "Designacao1":"10\/28",
-        "Comprimento1":1224.0,
+        "Comprimento1":1499.0,
         "Largura1":25.0,
         "Resistencia1":"5700 Kg \/   1.25 MPa",
         "Superficie1":"Asfalto"
@@ -65075,7 +65381,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Grama"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SN8Z",
         "Nome":"FAZENDA SAO FRANCISCO",
         "Municipio":"SÃO JOSÉ DO XINGU",
         "UF":"MT",
@@ -65129,7 +65435,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNC4",
         "Nome":"Itapecuru Bioenergia",
         "Municipio":"ALDEIAS ALTAS",
         "UF":"MA",
@@ -65255,7 +65561,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNM4",
         "Nome":"FAZENDA SÃO PEDRO",
         "Municipio":"CORUMBIARA",
         "UF":"RO",
@@ -65489,7 +65795,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SJ1R",
         "Nome":"Fazenda Reunidas Baumgart IV",
         "Municipio":"PARAÚNA",
         "UF":"GO",
@@ -65543,7 +65849,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Grama"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNA9",
         "Nome":"FAZENDA RENATA",
         "Municipio":"SÃO FÉLIX DO ARAGUAIA",
         "UF":"MT",
@@ -65579,7 +65885,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNK9",
         "Nome":"Fazenda Vereda",
         "Municipio":"SÃO DESIDÉRIO",
         "UF":"BA",
@@ -65795,7 +66101,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS2O",
         "Nome":"FAZENDA SEMEAR",
         "Municipio":"SÃO DESIDÉRIO",
         "UF":"BA",
@@ -65867,7 +66173,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS2Q",
         "Nome":"Major Brigadeiro do Ar Rui Moreira Lima",
         "Municipio":"COLINAS",
         "UF":"MA",
@@ -65975,7 +66281,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNT7",
         "Nome":"FAZENDA SANTA RITA",
         "Municipio":"SANTA ISABEL",
         "UF":"GO",
@@ -65993,7 +66299,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNP7",
         "Nome":"FAZENDA REATA",
         "Municipio":"NOVA CANAÃ DO NORTE",
         "UF":"MT",
@@ -66119,7 +66425,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Cascalho"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SNX7",
         "Nome":"Cerrado Aero Agrícola",
         "Municipio":"SÍTIO D'ABADIA",
         "UF":"GO",
@@ -66173,7 +66479,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS7G",
         "Nome":"Fazenda Amazônia",
         "Municipio":"BOM JARDIM",
         "UF":"MA",
@@ -66299,7 +66605,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Asfalto"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SS9R",
         "Nome":"Fazenda Triangulo Formoso",
         "Municipio":"BURITIZEIRO",
         "UF":"MG",
@@ -66389,7 +66695,7 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Superficie1":"Terra"
     },
     {
-        "CodigoOACI":null,
+        "CodigoOACI":"SJE5",
         "Nome":"Fazenda Esperança",
         "Municipio":"BOM JESUS DO ARAGUAIA",
         "UF":"MT",
@@ -66441,6 +66747,42 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.50 MPa",
         "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":"SD1J",
+        "Nome":"Fazenda São Joaquim",
+        "Municipio":"AMAJARI",
+        "UF":"RR",
+        "LatGeoPoint":3.48194444,
+        "LonGeoPoint":-61.134444,
+        "Latitude":"03°28'55.67\"N",
+        "Longitude":"061°08'04.2\"W",
+        "Altitude":105.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"13\/31",
+        "Comprimento1":750.0,
+        "Largura1":18.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Terra"
+    },
+    {
+        "CodigoOACI":"SJ15",
+        "Nome":"Lizete e Odair",
+        "Municipio":"CRISTALINA",
+        "UF":"GO",
+        "LatGeoPoint":-16.665278,
+        "LonGeoPoint":-47.388889,
+        "Latitude":"16°39'55.81\"S",
+        "Longitude":"047°23'20.81\"W",
+        "Altitude":932.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"15\/33",
+        "Comprimento1":700.0,
+        "Largura1":25.0,
+        "Resistencia1":"1900 Kg \/   0.15 MPa",
+        "Superficie1":"Terra"
     },
     {
         "CodigoOACI":"SWOT",
@@ -66513,6 +66855,60 @@ export const databasePriv: AErodromesPrivAnac[] = [
         "Largura1":18.0,
         "Resistencia1":"5700 Kg \/   0.62 MPa",
         "Superficie1":"Asfalto"
+    },
+    {
+        "CodigoOACI":"SD95",
+        "Nome":"Fazenda Sete De Setembro",
+        "Municipio":"ÁGUA BOA",
+        "UF":"MT",
+        "LatGeoPoint":-14.056667,
+        "LonGeoPoint":-52.577222,
+        "Latitude":"14°03'24.59\"S",
+        "Longitude":"052°34'38.24\"W",
+        "Altitude":381.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"15\/33",
+        "Comprimento1":1300.0,
+        "Largura1":20.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Cascalho"
+    },
+    {
+        "CodigoOACI":null,
+        "Nome":"Fazenda Vale Do Sol",
+        "Municipio":"RIO BRILHANTE",
+        "UF":"MS",
+        "LatGeoPoint":-21.828333,
+        "LonGeoPoint":-54.130833,
+        "Latitude":"21°49'42.65\"S",
+        "Longitude":"054°07'51.61\"W",
+        "Altitude":380.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"05\/23",
+        "Comprimento1":850.0,
+        "Largura1":30.0,
+        "Resistencia1":"5700 Kg \/   0.50 MPa",
+        "Superficie1":"Terra"
+    },
+    {
+        "CodigoOACI":null,
+        "Nome":"Fazenda Limoeiro",
+        "Municipio":"PIRAQUÊ",
+        "UF":"TO",
+        "LatGeoPoint":-6.4913889,
+        "LonGeoPoint":-48.227222,
+        "Latitude":"06°29'29.55\"S",
+        "Longitude":"048°13'38.19\"W",
+        "Altitude":0.0,
+        "OperacaoDiurna":"VFR",
+        "OperacaoNoturna":"Sem Operação",
+        "Designacao1":"02\/20",
+        "Comprimento1":1049.0,
+        "Largura1":20.0,
+        "Resistencia1":"5700 Kg \/   1.25 MPa",
+        "Superficie1":"Terra"
     }
 
 ];
