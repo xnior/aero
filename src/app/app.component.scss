@@ -74,3 +74,22 @@
 .mat-mdc-menu-panel {
   overflow: hidden;
 }
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+}
+select:focus {
+  border-color: #66afe9;
+  background-color: #66afe9;
+  color: #fff;
+  outline: none;
+}
+option {
+  padding: 8px;
+}

@@ -12,12 +12,15 @@ import { FormsModule } from "@angular/forms";
 export class ConsumeServicesComponent {
   #apiService = inject(ApiService);
 
-  public input_localide = "SBRP,SBSP,SBUR,SBBR";
+  public input_localide = "";
   
   public requestData() {
+    this.#apiService.requestedLoc.set(true);
     if (this.input_localide.length > 0) {
       this.#apiService.setData(this.input_localide);
       // console.log(this.input_localide);
+    }else{ 
+      this.#apiService.setData("SBGR,SBSP,SBCT,SBFL,SBPA,SBRP,SBUR,SBUL,SBBR")
     }
   }
   // console.log(this.dataInput);

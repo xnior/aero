@@ -39,11 +39,9 @@ export class StatusComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.#apiService.httpApiStatus$().subscribe((res) => {
-      this.setStatusTask.set(res.data);
-      console.log(res);
-      console.log(res.data);
-    });
+    
+    this.#apiService.setDataCountry("Brasil");
+    
     this.#apiService
       .getDataStatus$()
       .pipe(takeUntil(this.#unsubscribe))
