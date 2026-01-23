@@ -8,7 +8,7 @@
 <p><strong>UF:</strong> {{data.UF}}</p>
 <p><strong>Latitude:</strong> {{data.Latitude}}</p>
 <p><strong>Longitude:</strong> {{data.Longitude}}</p>
-<p><strong>Altitude:</strong> {{(data.Altitude ?? 0) * 3.280 }} (ft)pés</p>
+<p><strong>Altitude:</strong> {{(data.Altitude ?? 0).toFixed(2)}} (ft)pés</p>
 <p><strong>Operação Diurna:</strong> {{data.OperacaoDiurna}}</p>
 <p><strong>Operação Noturna:</strong> {{data.OperacaoNoturna}}</p>
 <p><strong>Designação:</strong> {{data.Designacao1}}</p>
