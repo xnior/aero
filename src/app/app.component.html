@@ -32,15 +32,11 @@
 
       <li>
         <button mat-raised-button (click)="reloadBR('Brasil')" routerLink="">
-          <mat-icon>refresh</mat-icon>Reload Brazil
+          <mat-icon>refresh</mat-icon>Brazil
         </button>
       </li>
       <li>
-        <select
-          name="country"
-          id="country"
-          [(ngModel)]="country"
-        >
+        <select name="country" id="country" [(ngModel)]="country">
           <option value="ARGENTINA">ARGENTINA</option>
           <option value="BOLIVIA">BOLIVIA</option>
           <option value="URUGUAY">URUGUAY</option>
@@ -286,4 +282,7 @@
   } @placeholder {
     <h2>Carregando módulo , aguarde...</h2>
   }
+  <div class="footer">
+    <small>Developed by Eng.Dev.Adhemar Jr</small>
+  </div>
 </section>
